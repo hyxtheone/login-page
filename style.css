@@ -110,6 +110,9 @@ main h1 {
         background-color: transparent;
         box-shadow: none;
     }
+
+    .entradas .submit {
+        font-size: 15px;
 }
 
 @keyframes AnimationLeft {
