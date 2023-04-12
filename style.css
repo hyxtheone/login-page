@@ -64,7 +64,7 @@ main h1 {
     font-size: 50px;
 }
 
-.painho {
+.or {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -73,7 +73,7 @@ main h1 {
 }
 
 
-.painho .linhas {
+.or .linhas {
     background-color: grey;
     height: 1px;
     width: 100px;
