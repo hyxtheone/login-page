@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background: #1B2029;
+    color: white;
+}
+
+main {
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.178);
+    background-color: #161923;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 50vh;
+    gap: 20px;
+}
+
+.tudo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+main .entradas {
+    display: flex;
+    flex-direction: column;
+    gap: 10px
+}
+
+main .imagens1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 24%;
+    
+}
+
+main .imagens {
+    width: 40px;
+}
+
+
+main h1 {
+    color: #8880FE;
+    font-size: 50px;
+}
+
+.painho {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.painho .linhas {
+    background-color: grey;
+    height: 1px;
+    width: 100px;
+}
+
+.entradas input, button {
+    color: white;
+    height: 35px;
+    background-color: #1f2431;
+    border-radius: 10px;
+    border: none;
+    padding: 5px;
+}
+
+
+.entradas .submit {
+    height: 50px;
+    transition: 0.3s;
+    margin-top: 12px;
+}
+
+.entradas .submit:hover {
+    cursor: pointer;
+    background-color: #1f243185;
+}
+
+[data-anime="left"]{
+    animation-name: AnimationLeft;
+    animation-duration: 2s;
+}
+
+@media (max-width:1160px) {
+    main {
+        background-color: transparent;
+        box-shadow: none;
+    }
+}
+
+@keyframes AnimationLeft {
+
+    0%{
+        transform: translateX(-100%);
+        opacity: 0;
+    } 100%{
+        transform: translateX(0%);
+        opacity: 1;
+    }
+    
+}
